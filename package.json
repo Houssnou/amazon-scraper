@@ -1,0 +1,27 @@
+{
+  "name": "amazon-scraper",
+  "version": "1.0.0",
+  "description": "Demo API to get  product, price, sales rank and reviews data from Amazon.",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon index.js",
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Houssnou/amazon-scraper.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Houssnou/amazon-scraper/issues"
+  },
+  "homepage": "https://github.com/Houssnou/amazon-scraper#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "nodemon": "^2.0.12",
+    "request": "^2.88.2",
+    "request-promise": "^4.2.6"
+  }
+}
